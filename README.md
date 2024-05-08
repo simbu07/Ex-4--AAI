@@ -1,5 +1,5 @@
 
-<H2 ALIGN =CENTER> Implementation of Hidden Markov Model</H1>
+<H2 ALIGN =CENTER>Ex-4 Implementation of Hidden Markov Model</H1>
 <H4>Silambarasan K</H4>
 <H4>212221230101</H4>
 <H4>DATE:01/03/2024</H4>
