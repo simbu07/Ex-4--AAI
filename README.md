@@ -2,7 +2,7 @@
 <H2 ALIGN =CENTER>Ex-4 Implementation of Hidden Markov Model</H1>
 <H4>Silambarasan K</H4>
 <H4>212221230101</H4>
-<H4>DATE:01/03/2024</H4>
+<H4>DATE:16/03/2024</H4>
 
 ### Aim: 
 Construct a Python code to find the sequence of hidden states by the known sequence of observances using Hidden Markov Model. Consider two hidden states Sunny and Rainy with observable states,happy and sad.
