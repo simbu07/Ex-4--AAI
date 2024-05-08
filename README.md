@@ -1,13 +1,13 @@
-<H3>Silambarasan K</H3>
-<H3>212221230101</H3>
-<H3>EX. NO.4</H3>
-<H3>DATE:19/03/2024</H3>
-<H1 ALIGN =CENTER> Implementation of Hidden Markov Model</H1>
 
-## Aim: 
+<H2 ALIGN =CENTER> Implementation of Hidden Markov Model</H1>
+<H4>Silambarasan K</H4>
+<H4>212221230101</H4>
+<H4>DATE:01/03/2024</H4>
+
+### Aim: 
 Construct a Python code to find the sequence of hidden states by the known sequence of observances using Hidden Markov Model. Consider two hidden states Sunny and Rainy with observable states,happy and sad.
 
-## Algorithm:
+### Algorithm:
 
 ### Step 1:
 Define the transition matrix, which specifies the probability of transitioning from  one hidden state to another.<br>
@@ -28,7 +28,7 @@ Loop through the rest of the observed sequence and calculate the rest of the alp
 Calculate the probability of the observed sequence by summing the last row of the alpha matrix.<br>
 ### Step 9:
 Find the most likely sequence of hidden states by selecting the hidden state with the highest probability at each time step based on the alpha matrix.<br>
-## Program:
+### Program:
 
 ```py
 import numpy as np
@@ -53,10 +53,9 @@ for t in range(len(obs_seq)):
     else:
         most_likely.append("rainy")
 ```
-## Output:
+### Output:
 
-![op1](https://github.com/simbu07/Ex-4--AAI/assets/94525786/24e51982-5f86-4ddc-be64-33e2d150930e)
-
-## Result:
+<img src="https://github.com/simbu07/Ex-4--AAI/assets/94525786/24e51982-5f86-4ddc-be64-33e2d150930e">
+### Result:
 Thus Hidden Markov Model is implemented using python.
 
